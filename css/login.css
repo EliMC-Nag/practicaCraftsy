@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('../img/bg-2.png');    
+}
+.home{
+    width: 100%;
+    max-width: 1140px;
+    margin-top: 10px;
+}
+.home li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;    
+}
+/*Header*/
+.home header{
+    background-color: orangered;
+    max-width: 1140px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    overflow: hidden; /*display: table; */
+    z-index: 1;
+    top: 0;
+}
+.home header img{
+    float: left;    
+}
+.home header ul.lista1{
+    float: left;
+    padding: 10px;
+    display: none;
+}
+.home header li{
+    padding: 10px;
+}
+.home header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+.home header ul.lista2 a:hover{
+    color: rgb(83, 20, 1);
+}
+.home header ul.listaCelu{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.home header ul.listaCelu a:hover{
+    color: rgb(83, 20, 1);
+}
+/*Main*/
+.home main{
+    max-width: 350px;    
+    margin-bottom: 20px;    
+    padding: 20px; 
+    font-weight: bold;    
+    color: rgba(0, 0, 0, 0.7);        
+}
+.home main div.cajas h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.home main div.caja1 input.caja{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 7px 5px;
+    border: 1px solid #839192 ;
+}
+/*.home main div.cajas{
+    background-color: white;       
+}*/
+
+.home main div.caja2{
+    text-align: right;    
+    padding-bottom: 10px;        
+}
+.home main div.caja2 input{
+    width: 10px;    
+}
+.home main div.caja2 label{    
+    font-size: 13px;
+    padding-left: 5px;    
+}
+.home main div.caja3{
+    padding-top: 40px;
+    
+}
+.home main div.caja3 button.boton{
+    background-color: #5DADE2;
+    border:#5DADE2;    
+    border-radius: 7px;
+    padding: 5px 30px;            
+}
+.home main div.caja3 button.boton a{
+    color: white;
+    font-size: small;
+    text-transform: none;   
+}
+.home main div.caja3 button.boton a:hover{
+    color: rgb(83, 20, 1);
+}
+

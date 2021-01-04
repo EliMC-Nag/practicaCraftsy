@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('../img/bg-2.png');    
+}
+.home{
+    width: 100%;
+    max-width: 1140px;
+    margin-top: 10px;
+}
+.home li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;    
+}
+/*Header*/
+.home header{
+    background-color: orangered;
+    max-width: 1140px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    overflow: hidden; /*display: table; */
+    z-index: 1;
+    top: 0;
+}
+.home header img{
+    float: left;    
+}
+.home header ul.lista1{
+    float: left;
+    padding: 10px;
+    display: none;
+}
+.home header li{
+    padding: 10px;
+}
+.home header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+.home header ul.lista2 a:hover{
+    color: rgb(83, 20, 1);
+}
+.home header ul.listaCelu{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.home header ul.listaCelu a:hover{
+    color: rgb(83, 20, 1);
+}
+/*Main*/
+.home main{
+    float: left;
+    width: 800px;
+    background-color: white;
+    margin-bottom: 10px;
+    overflow: hidden;    
+}
+/*Secciones Productos*/
+.home main section{
+    width: 380px;
+    margin: 10px;
+    float: left;
+}
+.home main section img{
+    width: 100%;
+}
+.home main section h2{
+    margin: 15px 0;
+}
+.home main section p{
+    margin-bottom: 15px;
+}
+.home main section button{
+    background-color: orangered;
+    border: orangered;
+    padding: 10px;    
+}
+/*.home main section button{
+    background-color: orangered;
+    border: orangered;    
+}
+.home main section button a{
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}*/
+.home main section button a{
+    font-weight: bold;
+}
+.home main section button a:hover{
+    color:  rgb(83, 20, 1);
+    
+}
+/*Seccion Lateral*/
+.home aside{
+    float:right;
+    width: 320px;      
+}
+.home aside section h2{
+    text-transform: capitalize;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid skyblue;
+    margin-bottom: 10px;
+}
+/*Articulos*/
+.home aside section{
+    margin-bottom: 30px;
+}
+.home aside section article{
+    background-color: white;
+    border: 1px solid skyblue;
+    padding: 10px;
+}
+.home aside section article a{
+    color: black;
+    text-transform: none;
+    width: 185px;
+    float:right;
+    padding: 20px 10px;    
+}
+.home aside section article a:hover{    
+    color: rgb(129, 126, 125);
+}
+/*Publicidad*/
+.home aside section div#publicidad{
+    background-color: white;
+    border: 1px solid skyblue;
+    margin-top: 10px;    
+}
+.home aside section div#publicidad img{
+    width: 100%;
+    padding: 10px;
+}
